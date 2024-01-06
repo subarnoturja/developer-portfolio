@@ -102,3 +102,14 @@ main{
 .about-info{
     text-align: center;
 }
+/* skills related style */
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+#doing-des{
+    padding: 30px 150px;
+}

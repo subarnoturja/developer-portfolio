@@ -180,3 +180,54 @@ textarea{
 .social-link a{
     margin-right: 25px;
 }
+
+/* Responsive Media Query */
+
+/* Mobile Devices */
+@media screen and (max-width:576px){
+    .header{
+        background-image: none;
+    }
+    nav, nav > ul, .banner, .skills-container, .resume-container, footer, .about-info-container{
+
+    flex-direction: column;
+   } 
+
+   nav > ul{
+    gap: 10px;
+   }
+
+   .banner .profile-pic{
+    width: 100%;
+   }
+
+   .banner, #doing-des{
+    padding: 20px;
+   }
+
+   footer, .about{
+    padding: 10px;
+   }
+
+   .btn-primary{
+    margin-bottom: 15px;
+   }
+
+   .footer-column{
+    width: 100%;
+   }
+
+   .contact input[type="text"], input[type="email"], 
+textarea{
+    width: 75%;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .footer{
+        padding: 30px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+}
